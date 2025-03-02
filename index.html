@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>스크롤 애니메이션</title>
+    <title>스크롤 비디오 확대 효과</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Muzigae Mansion Style Scroll Animation</h1>
-    </header>
+    <div class="video-container">
+        <video id="video" autoplay loop muted>
+            <source src="video.mp4" type="video/mp4">
+            브라우저가 비디오 태그를 지원하지 않습니다.
+        </video>
+    </div>
 
-    <section class="content">첫 번째 섹션</section>
-    <section class="content">두 번째 섹션</section>
-    <section class="content">세 번째 섹션</section>
-    <section class="content">네 번째 섹션</section>
+    <div class="content">
+        <h1>스크롤하면 비디오가 확대됩니다!</h1>
+        <p>스크롤을 내려보세요.</p>
+    </div>
 
     <script src="script.js"></script>
 </body>
